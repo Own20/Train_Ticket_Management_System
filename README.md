@@ -1,8 +1,10 @@
-# HaloKereta – Train E-Ticketing Database System
+# Train E-Ticketing Database System
 
 ## Brief Description
-HaloKereta is a relational database system designed to support an MRT (Mass Rapid Transit) e-ticketing platform. The system enables efficient ticket booking, passenger management, route pricing, and transaction processing in a scalable and structured way.<br>
+This is a relational database system designed to support an MRT (Mass Rapid Transit) e-ticketing platform. The system enables efficient ticket booking, passenger management, route pricing, and transaction processing in a scalable and structured way.<br>
+
 This project was developed as part of a Database Technology course, with a focus on solving real-world transportation challenges—specifically replacing inefficient manual ticketing processes with a fully digital, data-driven solution.<br>
+
 The system emphasizes:
 - High-volume transaction handling
 - Data consistency and integrity
@@ -27,16 +29,16 @@ The system emphasizes:
 - Implemented primary and foreign key constraints
 - Ensured referential integrity across all relationships
 2. Data Normalization
-Achieved Third Normal Form (3NF):
-- Eliminated redundant data
-- Removed transitive dependencies
-- Ensured all attributes depend only on primary keys
+- Achieved Third Normal Form (3NF):
+    - Eliminated redundant data
+    - Removed transitive dependencies
+    - Ensured all attributes depend only on primary keys
 3. Query Engineering<br>
 Implemented core SQL operations:
 - CRUD Operations (SELECT, INSERT, UPDATE, DELETE)
 - Aggregate functions:
-- MAX() for highest route price
-- MIN() for lowest route price
+    - MAX() for highest route price
+    - MIN() for lowest route price
 - Data filtering and transformation queries
 4. Transactional Data Handling<br>
 Designed ticketing system with:
@@ -46,9 +48,9 @@ Designed ticketing system with:
 5. Cloud Database Deployment
 - Deployed using managed cloud database services
 - Leveraged:
-- Automated backups
-- Failover systems
-- High availability architecture
+    - Automated backups
+    - Failover systems
+    - High availability architecture
 6. Security Implementation
 - Encrypted database at rest and in transit (SSL)
 - Secured credentials and authentication
@@ -71,3 +73,17 @@ Each Ticket is linked to:
 - One Payment Method
 - One Ticket Status
 A Route connects two Stations (origin & destination)
+
+## System Features
+- E-ticket booking system
+- Route-based pricing
+- Multiple payment methods
+- Ticket status tracking
+- User and admin management
+
+## Future Improvements
+- Integration with mobile/web frontend
+- Real-time ticket validation (QR-based)
+- Predictive analytics for passenger demand
+- Dynamic pricing based on peak hours
+- API layer for microservices architecture
